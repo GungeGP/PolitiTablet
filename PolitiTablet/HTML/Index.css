@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 8vh;
+    width: 100%;
+}
+
+nav {
+    height: 8vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    /* center this verticel */
+    margin-top: 1.5vh;
+}
+
+.menu {
+    float: right;
+    /* center this verticel */
+    margin-top: 1.5vh;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 1.5vh 1vh;
+    text-decoration: none;
+    font-size: 1.7vh;
+}
+
+.menu li a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.menu li a:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+
+
+.line {
+    background-color: #000000;
+    height: 1.5px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.testknap {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 1vh 1vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vh;
+    margin: 4vh 0 0 0;
+    cursor: pointer;
+    float: left;
+    margin-left: 5%;
+}
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.box {
+    margin-top: 3vh;
+    width: 50%;
+    min-height: 20vh;
+    max-height: 80vh;
+    float: right;
+    border: 1px solid #000000;
+    padding: 1vh 1vh;
+}
+
+.textboxc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleopkald {
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-bottom: -1vh;
+}
+
+.descopkald {
+    font-size: 1.5vh;
+    margin-bottom: 1vh;
+}
+
+.smallLine {
+    background-color: #000000;
+    height: 1.5px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 1vh;
+}
+
+
+.opkaldsboks {
+    width: 80%;
+    height: auto;
+    display: block;
+    border: 1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+}
+
+.opkaldsnummer {
+    margin-top: 1vh;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.tidspunkt {
+    padding-left: 2vh;
+    margin: 0px;
+    font-size: 1.5vh;
+    margin-bottom: 1vh;
+}
+
+.navn {
+    padding-left: 2vh;
+    margin: 0px;
+    font-size: 1.5vh;
+    margin-bottom: 0.5vh;
+}
+
+.text {
+    padding-left: 2vh;
+    margin: 0px;
+    font-size: 1.5vh;
+    margin-bottom: 1vh;
+}
